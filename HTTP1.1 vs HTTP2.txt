@@ -1,0 +1,56 @@
+HTTP/1.1:
+
+
+
+1. Sequential Resource Retrieval: Resources are requested and delivered sequentially, leading to potential delays in loading web pages.
+
+2. No Multiplexing: Lacks native multiplexing support, resulting in slower performance when multiple resources need to be fetched.
+
+3. Plain Text Headers: Headers are sent in plaintext with each request and response, which can increase data transfer size.
+
+4. Limited Server Control: The server has limited control over resource delivery; the client initiates all requests.
+
+5. No Resource Prioritization: Resources are fetched without a clear priority, potentially causing critical resources to be delayed by non-critical ones.
+
+6. Text-Based Protocol: Relies on a human-readable, text-based protocol, which isn't as efficient for machines.
+
+7. Limited Browser Support: Older browsers may not fully support HTTP/1.1 features, impacting performance.
+
+8. No Built-in Header Compression: Lacks built-in header compression, which can lead to larger header sizes and slower communication.
+
+9. No Server Push: Server push isn't a feature in HTTP/1.1, meaning the server can't proactively send resources to the client.
+
+10.Backward Compatibility: HTTP/1.1 is backward compatible with older HTTP/1.0, ensuring compatibility with legacy systems.
+
+
+
+HTTP/2:
+
+
+
+1. Parallel Resource Retrieval: Supports parallel resource retrieval, reducing latency and improving web page loading times.
+
+2. Multiplexing: Allows for multiple resource requests and deliveries over a single connection, significantly boosting performance.
+
+3. Header Compression: Utilizes header compression to reduce overhead, saving bandwidth and speeding up communication.
+
+4. Server Push: Enables server push, allowing the server to send resources to the client before they are requested.
+
+5. Resource Prioritization: Supports resource prioritization, ensuring that critical resources are delivered first.
+
+6. Binary Protocol: Employs a binary protocol that's more efficient for machine processing.
+
+7. Modern Browser Support: Most modern browsers support HTTP/2, ensuring widespread adoption.
+
+8. Enhanced Performance: Generally delivers faster and more efficient web experiences.
+
+9. Built-in Header Compression: Built-in support for header compression, reducing header sizes for better performance.
+
+10.Continued Evolution: Represents a significant step in the evolution of HTTP, with ongoing improvements and refinements in the pipeline.
+
+
+
+
+
+
+
